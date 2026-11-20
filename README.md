@@ -47,7 +47,7 @@ Open the DMG and drag AgentSandboxes to Applications. See [docs/INSTALL.md](docs
 4. **Review.** Added, modified and deleted files with a unified diff each.
 5. **Keep or discard.** Keep writes only the files you ticked. Edits you made to the project meanwhile are flagged as conflicts and skipped unless you overwrite.
 
-The VM engine is FluxVM 0.4.21 (Apache-2.0), bundled. Only the `com.apple.security.virtualization` entitlement is used.
+The VM engine is FluxVM 0.4.21 (Zyvor Production License v1.0), bundled. Only the `com.apple.security.virtualization` entitlement is used.
 
 ## Honest limits
 
