@@ -12,7 +12,7 @@ Write to **sales@zyvor.dev** for a 30-day trial key. Choose **Licence…**, past
 
 ## Paid licences
 
-Price: ₹3,999 per Mac per year including GST (about US$40). Teams of 5 or more Macs: ₹3,399 per Mac per year, by invoice. Contact **sales@zyvor.dev**. There is no online checkout.
+Price: INR 3,999 per Mac per year incl. 18% GST in India (about US$40 excl. tax outside India). Teams of 5 or more Macs: INR 3,399 per Mac per year (about US$34 excl. tax), minimum 5 Macs (INR 16,995, about US$171), by invoice. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev. Buy: [zyvor.dev/buy](https://zyvor.dev/buy#agent-sandboxes) (free 30-day trial first). Contact **sales@zyvor.dev**.
 
 ## Terms
 
