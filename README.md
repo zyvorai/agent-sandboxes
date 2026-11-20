@@ -26,7 +26,7 @@ A native macOS 27 menu-bar app that runs a coding agent in a throwaway VM, shows
 | **Free 30-day trial key** | **sales@zyvor.dev** (the app also works without a key) |
 | **Requirements** | macOS 27 or later, Apple silicon |
 | **Notarized** | Developer ID signed and notarized by Apple |
-| **Price** | Not published yet (coming soon). There is no online checkout. |
+| **Price** | ₹3,999 per Mac per year including GST (about US$40). Teams of 5 or more Macs: ₹3,399 per Mac per year, by invoice. There is no online checkout. |
 
 Open the DMG and drag AgentSandboxes to Applications. See [docs/INSTALL.md](docs/INSTALL.md).
 
@@ -62,7 +62,7 @@ Version 0.1.0 is a first release.
 ## Trial and licence
 
 - A paid app with a free 30-day trial. **It never disables a feature**: without a key everything works and a status line says so.
-- **Free 30-day trial key, or a paid licence: sales@zyvor.dev.** Pricing is coming soon.
+- **Free 30-day trial key, or a paid licence: sales@zyvor.dev.** Price: ₹3,999 per Mac per year including GST (about US$40). Teams of 5 or more Macs: ₹3,399 per Mac per year, by invoice.
 - Terms: [Zyvor Production License v1.0](LICENSE). See also [NOTICE](NOTICE) and [docs/LICENSING.md](docs/LICENSING.md).
 
 ## Documentation
