@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<title>Zyvor Agent Sandboxes · Run an agent in a disposable VM.</title>
+<meta name="description" content="Agent Sandboxes for macOS 27 on Apple silicon: run a coding agent in a disposable VM, review exactly what it changed as a diff, then keep or discard. Notarized trial download.">
+<link rel="canonical" href="https://zyvorai.github.io/agent-sandboxes/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zyvor Agent Sandboxes">
+<meta property="og:title" content="Zyvor Agent Sandboxes · Run an agent in a disposable VM.">
+<meta property="og:description" content="Run a coding agent in a disposable VM, review the diff, keep or discard. macOS 27, Apple silicon. Notarized trial download.">
+<meta property="og:url" content="https://zyvorai.github.io/agent-sandboxes/">
+<meta property="og:image" content="https://zyvorai.github.io/agent-sandboxes/social/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Agent Sandboxes: run an agent in a disposable VM. The review window is shown with sample data.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Zyvor Agent Sandboxes · Run an agent in a disposable VM.">
+<meta name="twitter:description" content="Run a coding agent in a disposable VM, review the diff, keep or discard. macOS 27, Apple silicon.">
+<meta name="twitter:image" content="https://zyvorai.github.io/agent-sandboxes/social/og.png">
+<link rel="stylesheet" href="assets/landing.css">
+<style>:root{--accent-btn:#2f45d6;--accent-ink:#2f45d6;--accent-grad-a:#4b63ff;--accent-grad-b:#9aa8ff}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--accent-ink:#9aa8ff}}:root[data-theme="dark"]{--accent-ink:#9aa8ff}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zyvor Agent Sandboxes","applicationCategory":"DeveloperApplication","operatingSystem":"macOS 27 or later, Apple silicon","softwareVersion":"0.1.0","downloadUrl":"https://github.com/zyvorai/agent-sandboxes/releases/tag/v0.1.0","url":"https://zyvorai.github.io/agent-sandboxes/","description":"Agent Sandboxes for macOS 27 on Apple silicon: run a coding agent in a disposable VM, review exactly what it changed as a diff, then keep or discard. Notarized trial download.","image":"https://zyvorai.github.io/agent-sandboxes/social/og.png","publisher":{"@type":"Organization","name":"Zyvor AI Labs Private Limited","url":"https://zyvor.dev"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <a class="brand" href="./" aria-label="Zyvor Agent Sandboxes home"><img src="favicon.svg" width="26" height="26" alt=""><span>Agent Sandboxes</span></a>
+  <nav aria-label="Primary"><ul><li><a href="#features">Features</a></li><li><a href="#specs">Specs</a></li><li><a href="#start">Get started</a></li><li><a href="#pricing">Trial</a></li><li><a href="#faq">FAQ</a></li><li><a href="https://github.com/zyvorai/agent-sandboxes/tree/main/docs">Docs</a></li></ul></nav>
+  <a class="btn small primary" href="https://github.com/zyvorai/agent-sandboxes/releases/tag/v0.1.0">Download</a>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="top">
+  <img class="icon" src="favicon.svg" width="96" height="96" alt="Agent Sandboxes app icon">
+  <p class="eyebrow">Zyvor · menu bar</p>
+  <h1 id="top">Agent Sandboxes</h1>
+  <p class="tagline">Run an agent in a disposable VM.</p>
+  <p class="promise"><strong>Let a coding agent loose without handing it your Mac.</strong> Each run happens in a throwaway virtual machine on your project&#x27;s clone. When it finishes you read the diff and choose what to keep. Built on FluxVM and Apple&#x27;s Virtualization framework, bundled in the app.</p>
+  <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/agent-sandboxes/releases/tag/v0.1.0">Download the 30-day trial</a><a class="textlink" href="#features">Learn more</a></p>
+  <p class="fine">macOS 27 or later · Apple silicon · notarized · Free 30-day trial key: sales@zyvor.dev</p>
+  <figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/review-dark-1200.webp 1200w" sizes="(min-width:960px) 62vw, 100vw"><img src="assets/img/review-light-1200.webp" srcset="assets/img/review-light-1200.webp 1200w" sizes="(min-width:960px) 62vw, 100vw" width="1180" height="780" alt="Agent Sandboxes with sample data: a list of changed files with checkboxes and a diff of paginate.py." fetchpriority="high" decoding="async"></picture><figcaption>The review window. Sample data in a render of the app&#x27;s own views, not a live session.</figcaption></figure>
+</section>
+
+<section class="band" aria-label="Overview">
+  <h2>Stage. Run. Review. Keep or discard.</h2>
+  <p>Four steps, and your real project changes only at the last one.</p>
+</section>
+
+<div id="features">
+<h2 class="sr">Features</h2>
+<section class="feature" id="review" aria-labelledby="h-review"><div class="grid"><div class="copy"><p class="eyebrow">Review</p><h3 id="h-review">See exactly what the agent changed.</h3><p>Every run ends with a change set: files added, modified and deleted, with a unified diff for each. Tick what you want to keep. Your real project changes only when you press Keep.</p></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/review-dark-1200.webp 1200w" sizes="(min-width:960px) 62vw, 100vw"><img src="assets/img/review-light-1200.webp" srcset="assets/img/review-light-1200.webp 1200w" sizes="(min-width:960px) 62vw, 100vw" width="1180" height="780" alt="Agent Sandboxes with sample data: a list of changed files with checkboxes and a diff of paginate.py showing removed lines in red and added lines in green." loading="lazy" decoding="async"></picture><figcaption>The review pane. Sample data in a render of the app&#x27;s own views, not a live session.</figcaption></figure></div></section>
+<section class="feature flip" id="run" aria-labelledby="h-run"><div class="grid"><div class="copy"><p class="eyebrow">Run</p><h3 id="h-run">A VM that lives for one job.</h3><p>Pick a template, drop in a project folder and a command. The project is cloned instantly with APFS copy-on-write, mounted into a Linux VM, and the agent runs there. When the command ends the VM is deleted. Your project is not touched meanwhile.</p></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/running-dark-1200.webp 1200w" sizes="(min-width:960px) 62vw, 100vw"><img src="assets/img/running-light-1200.webp" srcset="assets/img/running-light-1200.webp 1200w" sizes="(min-width:960px) 62vw, 100vw" width="1180" height="780" alt="Agent Sandboxes with sample data: a sidebar of sandboxes and a pipeline Stage, Run, Review, Keep or discard with Run highlighted and the text The agent is working." loading="lazy" decoding="async"></picture><figcaption>A sandbox mid-run. Sample data.</figcaption></figure></div></section>
+<section class="feature" id="new" aria-labelledby="h-new"><div class="grid"><div class="copy"><p class="eyebrow">Set up</p><h3 id="h-new">Template, folder, command. Go.</h3><p>Choose Debian 13, the small Agent micro image, or a macOS guest. Decide whether the sandbox gets network access. Sensible folders only: system roots and your home folder are refused as projects.</p></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/new-sandbox-dark-1200.webp 1200w" sizes="(min-width:960px) 62vw, 100vw"><img src="assets/img/new-sandbox-light-1200.webp" srcset="assets/img/new-sandbox-light-1200.webp 1200w" sizes="(min-width:960px) 62vw, 100vw" width="1180" height="780" alt="The New Sandbox sheet with sample data: template choice, project folder, network switch and the agent command." loading="lazy" decoding="async"></picture><figcaption>The New Sandbox sheet. Sample data.</figcaption></figure></div></section>
+</div>
+
+<section class="more" aria-labelledby="more-h">
+  <h2 id="more-h">Small things that add up.</h2>
+  <div class="cards"><div class="card"><h3>Instant staging</h3><p>The project is cloned with APFS copy-on-write, so even a large repo stages in moments.</p></div><div class="card"><h3>Conflict aware</h3><p>A file you edited in the project while the agent ran is flagged and skipped unless you choose to overwrite it.</p></div><div class="card"><h3>Own engine, own port</h3><p>The app runs its own FluxVM engine on 127.0.0.1:7799 with its own state folder. A FluxVM you already run is not touched.</p></div><div class="card"><h3>Keyboard first</h3><p>Command-N new sandbox, Command-R run again, Command-Return keep, Command-Delete discard. Reduce Motion and Reduce Transparency are respected.</p></div></div>
+</section>
+
+<section class="privacy" aria-labelledby="privacy-h">
+  <h2 id="privacy-h">Careful by default.</h2>
+  <div class="cards"><div class="card"><h3>Your project is read-only to the VM</h3><p>The VM mounts a clone, not your project. Keep writes only the files you ticked, through a temporary file and rename.</p></div><div class="card"><h3>Path safety</h3><p>Destinations must be relative, with no .. and no symlink between the project root and the target. .git, node_modules and build folders are never applied.</p></div><div class="card"><h3>One entitlement</h3><p>Only com.apple.security.virtualization, on the VM runner. No vmnet, no USB.</p></div></div>
+</section>
+
+<section class="specs" id="specs" aria-labelledby="specs-h">
+  <h2 id="specs-h">Specs and requirements.</h2>
+  <dl class="specs-grid"><div class="spec"><dt>Requires</dt><dd>macOS 27 or later<small>Apple silicon only.</small></dd></div><div class="spec"><dt>Build</dt><dd>Signed and notarized<small>Developer ID signed and notarized by Apple.</small></dd></div><div class="spec"><dt>Version</dt><dd>0.1.0<small>Free 30-day trial key: sales@zyvor.dev</small></dd></div><div class="spec"><dt>Guests</dt><dd>Linux and macOS<small>Debian 13 and Agent micro; macOS from an IPSW install you make once.</small></dd></div><div class="spec"><dt>macOS limit</dt><dd>Two at a time<small>Apple allows at most two macOS guests on a Mac. A third is refused with the reason.</small></dd></div><div class="spec"><dt>Engine</dt><dd>FluxVM 0.4.21<small>Bundled, Apache-2.0, Developer ID signed.</small></dd></div></dl>
+  <div class="limit" role="note"><h3>Honest limits</h3><p><b>Version 0.1.0 is a first release.</b> A Linux sandbox was booted through the whole flow on a real VM. <b>macOS guest project mounting, IPSW install and boot are not verified in this build.</b> There is no vmnet (bridged or shared) networking and no USB passthrough. A sandbox that mounts a project cold-boots in about 8 seconds once the base image is cached; the first create downloads the image. The UI was not clicked through on a live desktop before release. Every screenshot on this page is a render of the app&#x27;s own views with sample data, not a capture of a live session.</p></div>
+</section>
+
+<section class="steps" id="start" aria-labelledby="steps-h">
+  <h2 id="steps-h">Get started in three steps.</h2>
+  <ol><li><h3>Download</h3><p>Get <code>Agent-Sandboxes-0.1.0.dmg</code> from the release page. The SHA-256 is below and in <code>Agent-Sandboxes-0.1.0.dmg.sha256</code>.</p></li><li><h3>Install</h3><p>Open the DMG and drag AgentSandboxes to Applications. It needs <b>macOS 27 or later on Apple silicon</b> and lives in the menu bar.</p></li><li><h3>Optionally add a key</h3><p>The app works without a key. For a free 30-day trial key write to <a href="mailto:sales@zyvor.dev?subject=Agent%20Sandboxes%20trial%20key">sales@zyvor.dev</a> and paste it under Licence….</p></li></ol>
+  <div class="sha"><p>Agent Sandboxes 0.1.0 for Mac · SHA-256</p><pre><code id="sha">c94f5f9c200c9d471b93fb1a8714fa0f93c31f72995e3fd2e0534cb9ea25cff0</code></pre><p>Verify: <code>echo "c94f5f9c200c9d471b93fb1a8714fa0f93c31f72995e3fd2e0534cb9ea25cff0  Agent-Sandboxes-0.1.0.dmg" | shasum -a 256 -c</code></p></div>
+  <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/agent-sandboxes/releases/download/v0.1.0/Agent-Sandboxes-0.1.0.dmg">Download Agent-Sandboxes-0.1.0.dmg</a><a class="textlink" href="https://github.com/zyvorai/agent-sandboxes/releases/tag/v0.1.0">Release page</a><a class="textlink" href="https://github.com/zyvorai/agent-sandboxes/blob/main/docs/INSTALL.md">Install guide</a></p>
+</section>
+
+<section class="pricing" id="pricing" aria-labelledby="pricing-h">
+  <div class="inner">
+  <h2 id="pricing-h" style="text-align:left">Trial and licence.</h2>
+  <p class="lead">Agent Sandboxes is a paid app with a 30-day trial, and <b>it never disables a feature</b>. Without a key everything works and the app shows an unlicensed status line. For a free 30-day trial key write to <a href="mailto:sales@zyvor.dev?subject=Agent%20Sandboxes%20licence">sales@zyvor.dev</a>. Pricing is coming soon and not published yet. There is no online checkout.</p>
+<p class="fine"><a href="https://github.com/zyvorai/agent-sandboxes/blob/main/docs/LICENSING.md">How the trial and the status line work</a> · <a href="https://github.com/zyvorai/agent-sandboxes/blob/main/LICENSE">Zyvor Production License v1.0</a></p>
+  </div>
+</section>
+
+<section class="faq" id="faq" aria-labelledby="faq-h">
+  <h2 id="faq-h">Questions, answered.</h2>
+  <details><summary>Does it work without a licence key?</summary><p>Yes. Everything works and the app shows a status line saying it is unlicensed. For a free 30-day trial key write to sales@zyvor.dev.</p></details>
+<details><summary>What does it cost?</summary><p>Pricing is coming soon and is not published yet. Write to sales@zyvor.dev.</p></details>
+<details><summary>Does the agent touch my real project?</summary><p>No. The VM mounts an instant APFS clone. Your project changes only when you press Keep, and only the files you ticked are written.</p></details>
+<details><summary>Which agents work?</summary><p>Any command-line agent or script you can run in the guest. You give the app the command; it runs it in the VM and shows what changed.</p></details>
+<details><summary>Does it work on Intel Macs?</summary><p>No. Apple silicon only.</p></details>
+<details><summary>Can I run macOS guests?</summary><p>The template and the two-guest limit are built, but macOS guest project mounting, IPSW install and boot are not verified in 0.1.0. Linux guests are the verified path.</p></details>
+<details><summary>Does it conflict with FluxVM?</summary><p>No. Agent Sandboxes bundles FluxVM 0.4.21 and runs its own daemon on port 7799 with its own state folder.</p></details>
+<details><summary>Are the screenshots real?</summary><p>They are renders of the app&#x27;s own views with invented sample data, produced by the app. They are not captures of a live session.</p></details>
+<details><summary>Will macOS warn me when I open it?</summary><p>No. It is Developer ID signed and notarized by Apple. The SHA-256 is on the release page if you want to verify it.</p></details>
+</section>
+</main>
+<footer class="footer">
+  <p><strong>Zyvor Agent Sandboxes</strong> · The Agent Sandboxes source code is private.</p>
+  <p class="links"><a href="https://github.com/zyvorai/agent-sandboxes/tree/main/docs">Docs</a><a href="https://github.com/zyvorai/agent-sandboxes/blob/main/CHANGELOG.md">Changelog</a><a href="https://github.com/zyvorai/agent-sandboxes/releases/tag/v0.1.0">Release</a><a href="https://github.com/zyvorai/agent-sandboxes">GitHub</a><a href="https://github.com/zyvorai/agent-sandboxes/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/agent-sandboxes/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
+  <p>© 2026 Zyvor AI Labs Private Limited · <a href="https://zyvor.dev">zyvor.dev</a> · Zyvor Production License v1.0</p>
+</footer>
+</body>
+</html>

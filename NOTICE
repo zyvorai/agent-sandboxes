@@ -1,0 +1,9 @@
+Zyvor Agent Sandboxes
+Copyright 2026 Zyvor AI Labs Private Limited · https://zyvor.dev
+
+Licensed under the Zyvor Production License v1.0
+(SPDX: LicenseRef-Zyvor-Production-1.0).
+
+Non-production use is permitted. Production use requires a separate paid
+commercial license from Zyvor AI Labs Private Limited.
+Bundles FluxVM 0.4.21 (Apache-2.0) and libhivex/libintl (LGPL); dependencies retain their respective licenses.
