@@ -10,6 +10,6 @@
 
 **Does it conflict with FluxVM?** No. It bundles FluxVM 0.4.21 and runs its own daemon on port 7799.
 
-**Price?** Not published yet. sales@zyvor.dev.
+**Price?** ₹3,999 per Mac per year including GST (about US$40). Teams of 5 or more Macs: ₹3,399 per Mac per year, by invoice. Buy via sales@zyvor.dev.
 
 **Are the screenshots real?** Renders of the app's own views with invented sample data.

@@ -12,7 +12,7 @@ Write to **sales@zyvor.dev** for a 30-day trial key. Choose **Licence…**, past
 
 ## Paid licences
 
-Pricing is coming soon and is not published yet. Contact **sales@zyvor.dev**. There is no online checkout.
+Price: ₹3,999 per Mac per year including GST (about US$40). Teams of 5 or more Macs: ₹3,399 per Mac per year, by invoice. Contact **sales@zyvor.dev**. There is no online checkout.
 
 ## Terms
 
