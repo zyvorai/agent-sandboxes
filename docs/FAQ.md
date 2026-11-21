@@ -13,3 +13,5 @@
 **Price?** INR 3,999 per Mac per year incl. 18% GST in India (about US$40 excl. tax outside India). Teams of 5 or more Macs: INR 3,399 per Mac per year (about US$34 excl. tax), minimum 5 Macs (INR 16,995, about US$171), by invoice. Buy via sales@zyvor.dev.
 
 **Are the screenshots real?** Renders of the app's own views with invented sample data.
+
+**Can I script it or limit what Keep writes?** The 0.6.1 build (not yet published here; the download is 0.1.0) adds an `sbx` command line, an MCP server and a per-project policy file. See [COMMAND-LINE.md](COMMAND-LINE.md) and [POLICY.md](POLICY.md).

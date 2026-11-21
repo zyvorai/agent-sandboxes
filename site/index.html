@@ -65,6 +65,12 @@
   <div class="cards"><div class="card"><h3>Instant staging</h3><p>The project is cloned with APFS copy-on-write, so even a large repo stages in moments.</p></div><div class="card"><h3>Conflict aware</h3><p>A file you edited in the project while the agent ran is flagged and skipped unless you choose to overwrite it.</p></div><div class="card"><h3>Own engine, own port</h3><p>The app runs its own FluxVM engine on 127.0.0.1:7799 with its own state folder. A FluxVM you already run is not touched.</p></div><div class="card"><h3>Keyboard first</h3><p>Command-N new sandbox, Command-R run again, Command-Return keep, Command-Delete discard. Reduce Motion and Reduce Transparency are respected.</p></div></div>
 </section>
 
+<section class="more" aria-labelledby="ctl-h">
+  <h2 id="ctl-h">Control it, script it, limit it.</h2>
+  <p class="lead">Coming in the next release (built, not yet published; the download below is 0.1.0).</p>
+  <div class="cards"><div class="card"><h3>Project policy</h3><p>A <code>.sandbox-policy.json</code> in your real project sets deny and allow globs, size caps and run hooks, and Keep refuses added lines that look like credentials. <a href="https://github.com/zyvorai/agent-sandboxes/blob/main/docs/POLICY.md">Read more</a></p></div><div class="card"><h3>Command line and MCP</h3><p>Run, review, keep, rerun, export and clean up from <code>sbx</code>, or let an agent do it over MCP. Keep stays off for MCP unless you allow it. <a href="https://github.com/zyvorai/agent-sandboxes/blob/main/docs/COMMAND-LINE.md">Read more</a></p></div><div class="card"><h3>Hunks, history, cleanup</h3><p>Keep single hunks, see every run's output, snapshot and restore, and bulk-remove old sessions after a preview.</p></div></div>
+</section>
+
 <section class="privacy" aria-labelledby="privacy-h">
   <h2 id="privacy-h">Careful by default.</h2>
   <div class="cards"><div class="card"><h3>Your project is read-only to the VM</h3><p>The VM mounts a clone, not your project. Keep writes only the files you ticked, through a temporary file and rename.</p></div><div class="card"><h3>Path safety</h3><p>Destinations must be relative, with no .. and no symlink between the project root and the target. .git, node_modules and build folders are never applied.</p></div><div class="card"><h3>One entitlement</h3><p>Only com.apple.security.virtualization, on the VM runner. No vmnet, no USB.</p></div></div>
