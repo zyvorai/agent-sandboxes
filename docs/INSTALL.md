@@ -25,7 +25,7 @@ Agent Sandboxes is a menu-bar app. It starts its own bundled FluxVM engine on `1
 
 ## Licence key (optional)
 
-The app works without a key. For a free 30-day trial key write to **sales@zyvor.dev**, choose **Licence…**, paste the key and press Verify and Save. See [Licence and trial](LICENSING.md).
+The app works without a key. For a 30-day trial key write to **sales@zyvor.dev**, choose **Licence…**, paste the key and press Verify and Save. See [Licence and trial](LICENSING.md).
 
 ## Uninstall
 

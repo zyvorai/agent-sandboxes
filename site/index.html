@@ -92,13 +92,13 @@
 
 <section class="specs" id="specs" aria-labelledby="specs-h">
   <h2 id="specs-h">Specs and requirements.</h2>
-  <dl class="specs-grid"><div class="spec"><dt>Requires</dt><dd>macOS 27 or later<small>Apple silicon only.</small></dd></div><div class="spec"><dt>Build</dt><dd>Signed and notarized<small>Developer ID signed and notarized by Apple.</small></dd></div><div class="spec"><dt>Version</dt><dd>0.6.1<small>Free 30-day trial key: sales@zyvor.dev</small></dd></div><div class="spec"><dt>Guests</dt><dd>Linux and macOS<small>Debian 13 and Agent micro; macOS from an IPSW install you make once.</small></dd></div><div class="spec"><dt>macOS limit</dt><dd>Two at a time<small>Apple allows at most two macOS guests on a Mac. A third is refused with the reason.</small></dd></div><div class="spec"><dt>Engine</dt><dd>FluxVM 0.4.21<small>Bundled, Zyvor Production License v1.0, Developer ID signed.</small></dd></div></dl>
+  <dl class="specs-grid"><div class="spec"><dt>Requires</dt><dd>macOS 27 or later<small>Apple silicon only.</small></dd></div><div class="spec"><dt>Build</dt><dd>Signed and notarized<small>Developer ID signed and notarized by Apple.</small></dd></div><div class="spec"><dt>Version</dt><dd>0.6.1<small>30-day trial key: sales@zyvor.dev</small></dd></div><div class="spec"><dt>Guests</dt><dd>Linux and macOS<small>Debian 13 and Agent micro; macOS from an IPSW install you make once.</small></dd></div><div class="spec"><dt>macOS limit</dt><dd>Two at a time<small>Apple allows at most two macOS guests on a Mac. A third is refused with the reason.</small></dd></div><div class="spec"><dt>Engine</dt><dd>FluxVM 0.4.21<small>Bundled, Zyvor Production Licence v2.0, Developer ID signed.</small></dd></div></dl>
   <div class="limit" role="note"><h3>Honest limits</h3><p><b>Version 0.6.1 is an early release.</b> A Linux sandbox was booted through the whole flow on a real VM. <b>macOS guest project mounting, IPSW install and boot are not verified in this build.</b> There is no vmnet (bridged or shared) networking and no USB passthrough. A sandbox that mounts a project cold-boots in about 8 seconds once the base image is cached; the first create downloads the image. The newer app windows were compiled and covered by the app's self-tests, but not click-tested on a live desktop. Live output streaming and a network allow-list are not available yet. Every screenshot on this page is a render of the app&#x27;s own views with sample data, not a capture of a live session.</p></div>
 </section>
 
 <section class="steps" id="start" aria-labelledby="steps-h">
   <h2 id="steps-h">Get started in three steps.</h2>
-  <ol><li><h3>Download</h3><p>Get <code>Agent-Sandboxes-0.6.1.dmg</code> from the release page. The SHA-256 is below and in <code>Agent-Sandboxes-0.6.1.dmg.sha256</code>.</p></li><li><h3>Install</h3><p>Open the DMG and drag AgentSandboxes to Applications. It needs <b>macOS 27 or later on Apple silicon</b> and lives in the menu bar.</p></li><li><h3>Optionally add a key</h3><p>The app works without a key. For a free 30-day trial key write to <a href="mailto:sales@zyvor.dev?subject=Agent%20Sandboxes%20trial%20key">sales@zyvor.dev</a> and paste it under Licence….</p></li></ol>
+  <ol><li><h3>Download</h3><p>Get <code>Agent-Sandboxes-0.6.1.dmg</code> from the release page. The SHA-256 is below and in <code>Agent-Sandboxes-0.6.1.dmg.sha256</code>.</p></li><li><h3>Install</h3><p>Open the DMG and drag AgentSandboxes to Applications. It needs <b>macOS 27 or later on Apple silicon</b> and lives in the menu bar.</p></li><li><h3>Optionally add a key</h3><p>The app works without a key. For a 30-day trial key write to <a href="mailto:sales@zyvor.dev?subject=Agent%20Sandboxes%20trial%20key">sales@zyvor.dev</a> and paste it under Licence….</p></li></ol>
   <div class="sha"><p>Agent Sandboxes 0.6.1 for Mac · SHA-256</p><pre><code id="sha">8609f6bb8b92ce168011aa7495f4b3de7815c36c7aafcb535d371ab36c105c03</code></pre><p>Verify: <code>echo "8609f6bb8b92ce168011aa7495f4b3de7815c36c7aafcb535d371ab36c105c03  Agent-Sandboxes-0.6.1.dmg" | shasum -a 256 -c</code></p></div>
   <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/agent-sandboxes/releases/download/v0.6.1/Agent-Sandboxes-0.6.1.dmg">Download Agent-Sandboxes-0.6.1.dmg</a><a class="textlink" href="https://github.com/zyvorai/agent-sandboxes/releases/tag/v0.6.1">Release page</a><a class="textlink" href="https://github.com/zyvorai/agent-sandboxes/blob/main/docs/INSTALL.md">Install guide</a></p>
 </section>
@@ -107,12 +107,12 @@
   <h2 id="pricing-h">Prices and licenses</h2>
   <p>Current prices, in your currency where available, are on zyvor.dev. Agent Sandboxes works without a key and never turns a feature off. You can ask for a 30-day trial key before you decide.</p>
   <p class="cta"><a class="btn primary" href="https://zyvor.dev/buy" rel="noopener">Buy a license</a><a class="btn ghost" href="https://zyvor.dev/contact?intent=trial&amp;product=agent-sandboxes" rel="noopener">Ask for a 30-day trial</a><a class="textlink" href="https://zyvor.dev/pricing" rel="noopener">See current prices</a></p>
-  <p class="fine"><a href="https://github.com/zyvorai/agent-sandboxes/blob/main/docs/LICENSING.md">How the trial and the status line work</a> &middot; <a href="https://github.com/zyvorai/agent-sandboxes/blob/main/LICENSE">Zyvor Production License v1.0</a></p>
+  <p class="fine"><a href="https://github.com/zyvorai/agent-sandboxes/blob/main/docs/LICENSING.md">How the trial and the status line work</a> &middot; <a href="https://github.com/zyvorai/agent-sandboxes/blob/main/LICENSE">Zyvor Production Licence v2.0</a></p>
 </section>
 
 <section class="faq" id="faq" aria-labelledby="faq-h">
   <h2 id="faq-h">Questions, answered.</h2>
-  <details><summary>Does it work without a licence key?</summary><p>Yes. Everything works and the app shows a status line saying it is unlicensed. For a free 30-day trial key write to sales@zyvor.dev.</p></details>
+  <details><summary>Does it work without a licence key?</summary><p>Yes. Everything works and the app shows a status line saying it is unlicensed. For a 30-day trial key write to sales@zyvor.dev.</p></details>
 <details><summary>What does it cost?</summary><p>Current prices are on <a href="https://zyvor.dev/pricing" rel="noopener">zyvor.dev/pricing</a>. For a quote, write to sales@zyvor.dev.</p></details>
 <details><summary>Does the agent touch my real project?</summary><p>No. The VM mounts an instant APFS clone. Your project changes only when you press Keep, and only the files you ticked are written.</p></details>
 <details><summary>Which agents work?</summary><p>Any command-line agent or script you can run in the guest. You give the app the command; it runs it in the VM and shows what changed.</p></details>
@@ -126,7 +126,7 @@
 <footer class="footer">
   <p><strong>Zyvor Agent Sandboxes</strong> · The Agent Sandboxes source code is private.</p>
   <p class="links"><a href="https://github.com/zyvorai/agent-sandboxes/tree/main/docs">Docs</a><a href="https://github.com/zyvorai/agent-sandboxes/blob/main/CHANGELOG.md">Changelog</a><a href="https://github.com/zyvorai/agent-sandboxes/releases/tag/v0.6.1">Release</a><a href="https://github.com/zyvorai/agent-sandboxes">GitHub</a><a href="https://github.com/zyvorai/agent-sandboxes/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/agent-sandboxes/blob/main/SECURITY.md">SECURITY</a><a href="https://zyvor.dev">zyvor.dev</a><a href="mailto:sales@zyvor.dev">Support: sales@zyvor.dev</a></p>
-  <p>© 2026 Zyvor AI Labs Private Limited · <a href="https://zyvor.dev">zyvor.dev</a> · Zyvor Production License v1.0</p>
+  <p>© 2026 Zyvor AI Labs Private Limited · <a href="https://zyvor.dev">zyvor.dev</a> · Zyvor Production Licence v2.0</p>
 </footer>
 </body>
 </html>
