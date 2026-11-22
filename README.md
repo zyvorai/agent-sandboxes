@@ -71,7 +71,7 @@ Version 0.1.0 is a first release.
 | --- | --- |
 | [Website](https://zyvorai.github.io/agent-sandboxes/) | The product page |
 | [Install](docs/INSTALL.md) · [Licence](docs/LICENSING.md) · [FAQ](docs/FAQ.md) | Guides |
-| [Policy and guardrails](docs/POLICY.md) · [Command line and MCP](docs/COMMAND-LINE.md) | Features in the 0.6.1 build (the download above is 0.1.0) |
+| [Policy and guardrails](docs/POLICY.md) · [Command line and MCP](docs/COMMAND-LINE.md) | Features in the 0.7.0 build (the download above is 0.1.0) |
 | [Changelog](CHANGELOG.md) · [Security](SECURITY.md) | Release notes, reporting (security@zyvor.dev) |
 
 **The Agent Sandboxes source code is private.** This repository holds the documentation, website and downloads.
