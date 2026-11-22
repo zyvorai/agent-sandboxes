@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.7.0 (built, signed, notarized and stapled; not published here)
+
+The downloads in this repository have not been updated to 0.7.0. This entry describes the 0.7.0 build.
+
+### Added
+- Risk report: `sbx risk <id>` (and the MCP tool `sandbox_risk`) scores a session's changes low, medium or high without a model, and the review screen shows a Risk badge. New policy key `maxRisk` makes Keep refuse a change set scoring above it. It is a heuristic, not a safety guarantee. See [docs/POLICY.md](docs/POLICY.md).
+- Policy tools: `sbx policy test <id>` (and MCP `sandbox_policy_test`) lists every rule a change set would hit and writes nothing; `sbx policy presets` and `sbx init <project> --preset ...` write starter policies; `secretRules` add your own credential patterns; `entropyScan` is an opt-in extra check.
+- Scheduled runs: `sbx run --schedule` and `sbx schedule add|list|status|run-now|remove`, one launchd agent per schedule. A scheduled run never keeps its own result: it ends in review. MCP `sandbox_schedules` is read-only.
+- Keep as pull request: `sbx keep <id> --pr` pushes the kept changes as a branch and runs `gh pr create`. Without `--yes` it is a read-only preview. MCP has only the read-only `sandbox_pr_preview`; no MCP tool opens a pull request. The app has a Keep as Pull Request confirmation sheet.
+- App windows for features that were command-line only: a Checkpoints tab with a restore preview, Compare Runs, an Audit Log with filters and CSV export, and policy tools in Settings.
+- Documentation updated: [command line](docs/COMMAND-LINE.md), [policy](docs/POLICY.md), [FAQ](docs/FAQ.md).
+
+### Verified and not verified
+The app's self-tests pass: 33 suites, 1112 checks, 0 failed. The new app windows were compiled and covered by those tests, but not click-tested on a live desktop. 0.7.0 was not run against a real Linux VM; the tests use an engine stub, and the scheduling tests use a fake launchd host, so a real scheduled firing and real `launchctl` loading are not verified. Still not available: a network allow-list and egress log (needs the vmnet entitlement), extra Linux templates, macOS guest mounting, live output streaming, App Intents.
+
 ## Unreleased: 0.3.0 to 0.6.1 (built and notarized, not yet published here)
 
 The downloadable release on this page is still v0.1.0. These features are in the 0.6.1 build.
